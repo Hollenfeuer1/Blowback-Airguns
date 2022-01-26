@@ -45,8 +45,7 @@
         font-size: 10;
         grid-column: 1/1;
         grid-row: 2;
-        position: relative;
-        left: 10%;
+        margin: 1% 0 0 15%;
     }
     .blog{
         width: 100%;
@@ -54,6 +53,7 @@
         grid-column: 1/1;
         grid-row: 2;
         padding-bottom: 5%;
+        background: url('http://test.umarexusa.com/images/uploaded/img/Blowback%20Air%20Pistols/blockIMG.jpeg') no-repeat;
     }
     .blogText{
         font-size: 14px;
@@ -61,9 +61,8 @@
         color: white;
         grid-column: 1/1;
         grid-row: 2;
-        padding-top: 6%;
-        padding-right: 50%;
-        padding-left: 5%;
+        margin-left: 3%;
+        width: 50%;
         text-align: center;
     }
     .blogButton{
@@ -73,17 +72,11 @@
         border: none;
         grid-column: 1/1;
         grid-row: 2;
-        position: relative;
-        top: 50%;
-        left: 17%;
         transition: all .6s ease-in-out;
     }
     .blogButtons{
         grid-column: 1/1;
         grid-row: 2;
-        position: relative;
-        top: 50%;
-        left: 17%;
     }
     .blogButton:hover{
         transform: scale(1.2);
@@ -182,34 +175,34 @@
         gap: 10px 25px;
         grid-auto-rows: minmax(50px, auto);
         justify-items: center;
+        min-height: 300px;
         
     }
-    .blog{
+    .blog {
         grid-column: 1/1;
         grid-row: 1;
-        content:url("http://test.umarexusa.com/images/uploaded/img/Blowback%20Air%20Pistols/MobileBlockIMG.jpeg");
-        height: 80%;
-        width: 90%;
-        padding-right: 5%;  
+        background-image: url("http://test.umarexusa.com/images/uploaded/img/Blowback%20Air%20Pistols/MobileBlockIMG.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .blowbackBlog h2{
         grid-column: 1/1;
         grid-row: 1;
         color: white;
-        font-size: 30px;
-        position: relative;
-        top: 45%;
+        font-size: 1.75em;
+        margin: 5% auto;
+        text-shadow: 5px 5px 5px black;
     }
     .blogText{
         grid-column: 1/1;
         grid-row: 1;
-        color: white;
-        padding-left: 10%;
-        padding-right: 15%;
-        font-size: large;
+        color: black;
         text-align: center;
-        position: relative;
-        top: 58%;
+    }
+    .blogText p {
+        font-size: 1.25em;
+        padding: 1%;
+        background-color: rgba(255,255,255,0.6);
     }
     .blogButton{
         grid-column: 1/1;
@@ -217,13 +210,12 @@
         height: 15px;
         padding-bottom: 30px;
         width: 300px;
-        position: relative;
-        top: 70%;
         border: none;
         background-color: white;
         color:#ed1b24;
         font-size: large;
         font-weight: bold;
+        margin-top: 5%;
     }
     .fourcolumns{
         grid-row: 4;

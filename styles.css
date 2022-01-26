@@ -1,0 +1,277 @@
+@media (min-width: 901px){
+    .heading{
+        grid-column: 1/1;
+        grid-row: 1;
+    }
+    h1{
+        color: #ed1b24;
+    }
+    .link{
+        color: #ed1b24;
+    }
+    .top{
+        position: relative;
+        top:-5%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px 25px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .blowbackLeft{
+        grid-column: 1/2;
+        grid-row: 2;
+        
+    }
+    .blowbackRight{
+        grid-column: 2/2;
+        grid-row: 2;
+        
+    }
+    .bbpistol{
+        float: right;
+        padding-left: 5%;
+        height: 225px;
+        width: 375px
+    }
+    .blowbackBlog{
+        grid-row: 3;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .blowbackBlog h2{
+        color: white;
+        font-size: 10;
+        grid-column: 1/1;
+        grid-row: 2;
+        position: relative;
+        left: 10%;
+    }
+    .blog{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/1;
+        grid-row: 2;
+        padding-bottom: 5%;
+    }
+    .blogText{
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        grid-column: 1/1;
+        grid-row: 2;
+        padding-top: 6%;
+        padding-right: 50%;
+        padding-left: 5%;
+        text-align: center;
+    }
+    .blogButton{
+        width: 200px;
+        height: 35px; 
+        color: #ed1b24;
+        border: none;
+        grid-column: 1/1;
+        grid-row: 2;
+        position: relative;
+        top: 50%;
+        left: 17%;
+        transition: all .6s ease-in-out;
+    }
+    .blogButtons{
+        grid-column: 1/1;
+        grid-row: 2;
+        position: relative;
+        top: 50%;
+        left: 17%;
+    }
+    .blogButton:hover{
+        transform: scale(1.2);
+    }
+    .fourcolumns{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px 2px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .BB{
+        grid-column: 1/4;
+        grid-row: 1;
+        grid-column-end: 2;
+        border-right: 2px solid rgb(179, 179, 179);
+    }
+    .Pellet{
+        grid-column: 2/4;
+        grid-row: 1;
+        padding-left: 25px;
+        grid-column-end: 3;
+        border-right: 2px solid rgb(179, 179, 179);
+    }
+    .CO2{
+        grid-column: 3/4;
+        grid-row: 1;
+        padding-left: 25px;
+        border-right: 2px solid rgb(179, 179, 179);
+    }
+    .greenGas{
+        grid-column: 4/4;
+        grid-row: 1;
+        padding-left: 25px;
+        
+    }
+    .imgResize{
+        height: 150px;
+        width: 200px;
+    }
+    .listButton{
+        color: white;
+        background-color: red;
+        border: none;
+        padding: 6px 40px;
+        transition: all .6s ease-in-out;
+    }
+    .listButton:hover{
+        transform: scale(1.2);
+    }
+    li{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .lawsText{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .heading{
+        grid-column: 1/1;
+        grid-row: 1;
+    }
+    h1{
+        color: #ed1b24;
+    }
+    .link{
+        color: #ed1b24;
+    }
+    .blowbackLeft{
+        grid-column: 1/1;
+        grid-row: 2;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        font-size: large;
+    }
+    .blowbackRight{
+        grid-column: 1/1;
+        grid-row: 3;
+        max-width: 800px;
+        padding-right: 10%;
+        font-size: large;
+        padding-bottom: 15%;
+    }
+    .bbpistol{
+        float: right;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 1%;
+    }
+    .blowbackBlog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px 25px;
+        grid-auto-rows: minmax(50px, auto);
+        justify-items: center;
+        
+    }
+    .blog{
+        grid-column: 1/1;
+        grid-row: 1;
+        content:url("./assets/MobileBlockIMG.jpeg");
+        height: 80%;
+        width: 90%;
+        padding-right: 5%;  
+    }
+    .blowbackBlog h2{
+        grid-column: 1/1;
+        grid-row: 1;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 45%;
+    }
+    .blogText{
+        grid-column: 1/1;
+        grid-row: 1;
+        color: white;
+        padding-left: 10%;
+        padding-right: 15%;
+        font-size: large;
+        text-align: center;
+        position: relative;
+        top: 58%;
+    }
+    .blogButton{
+        grid-column: 1/1;
+        grid-row: 1;
+        height: 15px;
+        padding-bottom: 30px;
+        width: 300px;
+        position: relative;
+        top: 70%;
+        border: none;
+        background-color: white;
+        color:#ed1b24;
+        font-size: large;
+        font-weight: bold;
+    }
+    .fourcolumns{
+        grid-row: 4;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px 25px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .BB{
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+    }
+    .Pellet{
+        grid-column: 2;
+        grid-row: 1;
+        padding-left: 10%;
+        border-left: 3px solid lightgray;
+    }
+    .CO2{
+        grid-column: 1;
+        grid-row: 2;
+        padding-left: 5%;
+        position: relative;
+    }
+    .greenGas{
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 10%;
+        border-left: 3px solid lightgray;
+    }
+    .imgResize{
+        height: 200px;
+        width: 300px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .listButton{
+        color: white;
+        background-color: red;
+        border: none;
+        padding: 6px 40px;
+    }
+    li{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .lawsText{
+        padding-top: 10%;
+        grid-row: 6;
+    }
+}

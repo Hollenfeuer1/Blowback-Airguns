@@ -29,9 +29,9 @@
     }
     .bbpistol{
         float: right;
-        padding-left: 5%;
-        height: 225px;
-        width: 375px
+        margin-left: 5%;
+        height: auto;
+        max-width: 375px
     }
     .blowbackBlog{
         grid-row: 3;
@@ -120,8 +120,8 @@
         
     }
     .imgResize{
-        height: 150px;
-        width: 200px;
+        height: auto;
+        max-width: 200px;
     }
     .listButton{
         color: white;
@@ -171,9 +171,10 @@
     }
     .bbpistol{
         float: right;
-        padding-right: 5%;
-        padding-left: 5%;
-        padding-bottom: 1%;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        max-width: 300px;
+        height: auto;
     }
     .blowbackBlog{
         display: grid;
@@ -255,10 +256,10 @@
         border-left: 3px solid lightgray;
     }
     .imgResize{
-        height: 200px;
-        width: 300px;
-        padding-top: 3%;
-        padding-bottom: 3%;
+        height: auto;
+        max-width: 300px;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
     .listButton{
         color: white;

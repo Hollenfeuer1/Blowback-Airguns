@@ -186,7 +186,7 @@
     .blog{
         grid-column: 1/1;
         grid-row: 1;
-        content:url("./assets/MobileBlockIMG.jpeg");
+        content:url("http://test.umarexusa.com/images/uploaded/img/Blowback%20Air%20Pistols/MobileBlockIMG.jpeg");
         height: 80%;
         width: 90%;
         padding-right: 5%;  
